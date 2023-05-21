@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Project</title>
+   <link rel="stylesheet" href="style/blog.css">
+   <link rel="shortcut icon" href="image/logo.PNG" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <!-- NAVBAR  -->
+   <div class="navbar">
+      <div class="navbar-left">
+        <img class="navbar-logo" src="image/logo.PNG" alt="Logo">
+            <a class="navbar-link" href="index.html">Home</a>
+            <a class="navbar-link" href="myproject.html">My Projects</a>
+      </div>
+      <div class="navbar-right">
+        <a class="navbar-link" href="contact.html">Contact Me</a>
+      </div>
+    </div>
+   <!-- NAVBAR  -->
+
+   <!-- CONTENT  -->
+   <div class="blog">
+      <div class="blog-form">
+         <div class="container">
+            <form action="" onsubmit="addBlog(event)">
+            <h1>ADD MY PROJECT</h1>
+               <div class="">
+                  <label for="project">Project Name</label>
+                  <input type="text" id="project">
+               </div>
+               <div class="date">
+                  <div class="">
+                     <label for="start-date">Start Date</label>
+                     <input type="date" id="start-date">
+                  </div>
+                  <div class="">
+                     <label for="end-date">End Date</label>
+                     <input type="date" id="end-date">
+                  </div>
+               </div>
+               
+               <div class="">
+                  <label for="description">Description</label>
+                  <textarea name="" id="description" cols="30" rows="10"></textarea>
+               </div>
+
+               <div class="input-blog-check">
+                  <label>Technologies</label>
+                  <div class="input-blog-check-list">
+                     <div>
+                        <input type="checkbox" id="input-check-box-js" />
+                        <label for="input-check-box-js">Javascript</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" id="input-check-box-py" />
+                        <label for="input-check-box-py">Python</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" id="input-check-box-php"/>
+                        <label for="input-check-box-php">PHP</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" id="input-check-box-java"/>
+                        <label for="input-check-box-java">Java</label>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="">
+                  <label for="upload">Upload Image</label>
+                  <input type="file" name="" id="upload" >
+               </div>
+               <div class="submit">
+                  <button>submit</button>
+               </div>
+            </form>
+         </div>
+      </div>
+      <!-- CONTENT  -->
+
+      <hr class="line">
+
+      <!-- CONTENT BLOG -->
+
+      <div class="content">
+         <div class="container2">
+            <h1>MY PROJECT</h1>
+               <div class="berita">
+                  <div class="card" >
+                     <img src="image/images.jpeg" alt="blog">
+                     <a href="projectdetail.html" target="_blank"><p class="title">Megachan - 2024</p></a>
+                     <p>durasi : 8 bulan</p>
+                     <p class="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, earum.</p>
+                     <i class="fa-brands fa-app-store-ios"></i>
+                     <i class="fa-brands fa-android"></i>
+                     <i class="fa-brands fa-java"></i>
+                     <div class="button">
+                        <button>edit</button>
+                        <button>delete</button>
+                     </div>  
+                  </div>
+                  <div class="card" >
+                     <img src="image/images.jpeg" alt="blog">
+                     <a href="projectdetail.html" target="_blank"><p class="title">Clan Akatsuki - 2024</p></a>
+                     <p>durasi : 8 bulan</p>
+                     <p class="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, earum.</p>
+                     <i class="fa-brands fa-app-store-ios"></i>
+                     <i class="fa-brands fa-android"></i>
+                     <i class="fa-brands fa-java"></i>
+                     <div class="button">
+                        <button>edit</button>
+                        <button>delete</button>
+                     </div>  
+                  </div> 
+                  <div class="card" >
+                     <img src="image/images.jpeg" alt="blog">
+                     <a href="projectdetail.html" target="_blank"><p class="title">Clan Akatsuki - 2024</p></a>
+                     <p>durasi : 8 bulan</p>
+                     <p class="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, earum.</p>
+                     <i class="fa-brands fa-app-store-ios"></i>
+                     <i class="fa-brands fa-android"></i>
+                     <i class="fa-brands fa-java"></i>
+                     <div class="button">
+                        <button>edit</button>
+                        <button>delete</button>
+                     </div>  
+                  </div>   
+               </div>
+         </div>
+      </div>
+   </div>
+   <!-- CONTENT BLOG -->
+   <script src="js/blog.js"></script>
+</body>
+</html>

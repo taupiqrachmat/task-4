@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rajdhani', sans-serif;
+ }
+ 
+ /* NAVBAR */
+ .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #f1f1f1;
+   padding: 10px;
+ }
+ 
+ .navbar-left {
+   display: flex;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .navbar-logo {
+   margin-right: 30px;
+ }
+ 
+ .navbar-right {
+   background-color: black;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin-top: 10px;
+   cursor: pointer;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+ }
+ 
+ .navbar-right a {
+   color: white;
+ }
+ 
+ .navbar-link {
+   margin-right: 10px;
+   text-decoration: none;
+   color: #333;
+ }
+ 
+ /* NAVBAR */
+ 
+
+ /* CONTENT */
+
+ .container {
+   width: 600px;
+   margin:auto;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin-bottom: 100px;
+
+    /* background-color: aqua; */
+ }
+ 
+ h1 {
+    text-align: center;
+    margin: 30px 0;
+ }
+ 
+ input[type=text], input[type=date], textarea  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+ }
+ 
+ input[type=checkbox] {
+    margin: 10px 20px;
+ }
+ 
+ input[type=file] {
+    /* font-size: 18px; */
+    padding: 12px 20px;
+    width: 100%;
+    margin: 20px 0; 
+    border: 1px solid black;
+    border-radius: 10px;
+ }
+ 
+ .date {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .date div {
+    width: 48%;
+ }
+ 
+ .submit {
+    float: right;
+ }
+ 
+ .input-blog-check-list {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 20px;
+ }
+
+ /* CONTENT  */
+
+ .blog .line {
+   border: 1px solid #dbdbdb;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ /* CONTENT BLOG  */
+
+ .container2 {
+ 
+    margin: 150px auto;
+    margin-top: 100px;
+ }
+
+ 
+ .berita {
+   display: flex;
+   justify-content: center;
+}
+
+ 
+ .card {
+    width: 300px;
+    margin-right: 50px;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+ }
+ 
+ .card img {
+    width: 100%;
+ }
+ 
+ .card .title {
+    font-weight: bold;
+ }
+ 
+ .card .about {
+    margin: 10px 0;
+ }
+ 
+ .card .fa-brands {
+    font-size: 30px;
+    margin-right: 10px;
+ }
+ 
+ .card .button {
+    display: flex;
+ }
+ 
+ .card .button button {
+    padding: 5px 10px ;
+    margin-right: 10px;
+    margin-top: 10px;
+ }
+ /* CONTENT BLOG  */

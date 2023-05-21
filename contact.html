@@ -4,64 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/contact.css">
     <title>Contact</title>
-    <link rel="stylesheet" href="css/contact.css" />
-    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <nav>
-        <div class="nav-left">
-            <ul>
-                <li>
-                    <img src="images/logo.png" alt="logo" />
-                </li>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="blog.html">Blog</a>
-                </li>
-            </ul>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img class="navbar-logo" src="image/logo.PNG" alt="Logo">
+            <a class="navbar-link" href="index.html">Home</a>
+            <a class="navbar-link" href="myproject.html">My Projects</a>
         </div>
-        <div class="nav-right">
-            <a href="contact.html">Contact</a>
+        <div class="navbar-right">
+            <a class="navbar-link" href="">Contact Me</a>
         </div>
-    </nav>
+    </div>
+
     <form>
         <div>
             <label for="input-name">Name</label>
-            <input id="input-name" type="text" required />
+            <input id="input-name" type="text" required>
         </div>
-
         <div>
             <label for="input-email">Email</label>
-            <input id="input-email" type="email" required />
+            <input id="input-email" type="email" required>
         </div>
-
         <div>
             <label for="input-phone">Phone Number</label>
-            <input id="input-phone" type="number" required />
+            <input id="input-phone" type="number">
         </div>
-
-        <div>
+        <div class="subject">
             <label for="input-subject">Subject</label>
-            <select id="input-subject">
+            <select id="input-subject" required>
                 <option value="" hidden>Select</option>
-                <option>Frontend</option>
-                <option>Backend</option>
-                <option>Fullstack</option>
+                <option value="Option 1">Frontend</option>
+                <option value="Option 2">Backend</option>
+                <option value="Option 3">Fullstack</option>
             </select>
         </div>
-
         <div>
-            <label for="input-message">Your Messages</label>
-            <textarea id="input-message" rows="5" cols="10"></textarea>
+            <label for="input-message">Your Message</label>
+            <textarea id="input-message" cols="10" rows="5"></textarea>
         </div>
-
-        <div>
-            <button type="button" onclick="submitData()">Submit</button>
-        </div>
+        <button type="button" onclick="submitData()">Submit</button>
     </form>
-    <script src="js/contact.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
